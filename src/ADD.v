@@ -1,10 +1,9 @@
-module std_Add(
+module Add(
     input       [31:0]          a,
     input       [31:0]          b,
     output reg  [31:0]          sum
 );
 
-    // TODO
 reg [31:0] pc = 32'b0;
 
 always @(a or b) begin
